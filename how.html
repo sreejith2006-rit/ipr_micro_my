@@ -236,10 +236,12 @@ a, .signup {
 }
 
 .signup {
-  background-color: green;
-  padding: 10px 20px;
-  border-radius: 8px;
-}
+      background-color: green;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
 
   </style>
 </head>
@@ -257,7 +259,7 @@ a, .signup {
           <li><a href="how.html">How It Works</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contacts2.html">Contact</a></li>
-          <li><a href="signup.html">signup</a></li>
+          <li><button class="signup">Sign Up</button></li>
         </ul>
       </div>
     </nav>
@@ -282,7 +284,7 @@ a, .signup {
       </div>
 
       <div class="cta">
-        <h2>Ready to Take Control of Your Kitchen?</h2>
+        <h2 style="color: #fff;">Ready to Take Control of Your Kitchen?</h2>
         <button onclick="window.location.href='signup.html'">Get Started</button>
       </div>
     </section>
